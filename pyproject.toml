@@ -4,7 +4,7 @@ requires = [
   "cmeel[build]",
   "cmeel-boost ~= 1.89.0",
   "libcrocoddyl[build]",
-  "libproxsuite[build]",
+  "proxsuite[build]",
   "libpinocchio[build]"
 ]
 
@@ -12,7 +12,7 @@ requires = [
 dependencies = [
   "cmeel-boost ~= 1.89.0",
   "libcrocoddyl",
-  "libproxsuite",
+  "proxsuite",
   "libpinocchio"
 ]
 description = "A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives"
