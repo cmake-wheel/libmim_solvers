@@ -26,6 +26,7 @@ homepage = "https://github.com/cmake-wheel/libmim_solvers"
 upstream = "https://github.com/machines-in-motion/mim_solvers"
 
 [tool.cmeel]
+build-number = 1
 configure-args = [
   "-DBUILD_PYTHON_INTERFACE=OFF",
   "-DBUILD_WITH_PROXSUITE=ON"
